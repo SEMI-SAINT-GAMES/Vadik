@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 62d61a352c4e24519a87fafebad914d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5869179163281597291
+    second: WeaponsWithArm_0
+  - first:
+      213: 7592358423346460836
+    second: WeaponsWithArm_1
+  - first:
+      213: 2912502513502420911
+    second: WeaponsWithArm_2
+  - first:
+      213: -7783663306980287758
+    second: WeaponsWithArm_3
+  - first:
+      213: -5719040161927312245
+    second: WeaponsWithArm_4
+  - first:
+      213: 421564944017324006
+    second: WeaponsWithArm_5
+  - first:
+      213: -5986946419932250503
+    second: WeaponsWithArm_6
+  - first:
+      213: 355330239550990201
+    second: WeaponsWithArm_7
+  - first:
+      213: -833923179764444966
+    second: WeaponsWithArm_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WeaponsWithArm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.48, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63268e4a53837150800000000000000
+      internalID: 5869179163281597291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.4491751, y: 0.4632862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8b20f82c97d5960800000000000000
+      internalID: 7592358423346460836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_2
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.40318593, y: 0.63033473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7ebcda994b6820800000000000000
+      internalID: 2912502513502420911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_3
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.4838776, y: 0.61840576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa9230467fdaf390800000000000000
+      internalID: -7783663306980287758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_4
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.43040207, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c41240643e1a0b0800000000000000
+      internalID: -5719040161927312245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_5
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.53592557, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7f8e14513b9d500800000000000000
+      internalID: 421564944017324006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_6
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.5, y: 0.60319364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e34a683f71aeca0800000000000000
+      internalID: -5986946419932250503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_7
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 0
+        width: 615
+        height: 246
+      alignment: 9
+      pivot: {x: 0.6456293, y: 0.6456298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977246268f26ee400800000000000000
+      internalID: 355330239550990201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponsWithArm_8
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 0
+        width: 615
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad01d2c494f4d64f0800000000000000
+      internalID: -833923179764444966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

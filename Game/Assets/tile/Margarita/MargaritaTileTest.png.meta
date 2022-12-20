@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: fb31cddb24100450ebe08686bcd7c9a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3729903490557889916
+    second: MargaritaTileTest_0
+  - first:
+      213: 1845017178806356861
+    second: MargaritaTileTest_1
+  - first:
+      213: 3502262757826083807
+    second: RightShoulder
+  - first:
+      213: 2176636235400993704
+    second: RightArm
+  - first:
+      213: -847811353500637167
+    second: MargaritaTileTest_4
+  - first:
+      213: -8045406416708125136
+    second: MargaritaTileTest_5
+  - first:
+      213: -1635650619988221084
+    second: MargaritaTileTest_6
+  - first:
+      213: 7060482217455971021
+    second: MargaritaTileTest_7
+  - first:
+      213: 4840027535332849927
+    second: MargaritaTileTest_8
+  - first:
+      213: -5663494464881863780
+    second: MargaritaTileTest_9
+  - first:
+      213: -4917944779745759483
+    second: MargaritaTileTest_10
+  - first:
+      213: 2580312069970498807
+    second: MargaritaTileTest_11
+  - first:
+      213: -5042617338505206922
+    second: LeftArm
+  - first:
+      213: 6146283690431712109
+    second: LeftShoulder
+  - first:
+      213: -5007704902746254771
+    second: MargaritaTileTest_14
+  - first:
+      213: 518047637315286469
+    second: MargaritaTileTest_15
+  - first:
+      213: -5558431880314099669
+    second: RightFoot
+  - first:
+      213: -17258409534370693
+    second: LeftFoot
+  - first:
+      213: -6587450521007038054
+    second: MargaritaTileTest_18
+  - first:
+      213: 660375661184187533
+    second: MargaritaTileTest_19
+  - first:
+      213: 5746825669914626505
+    second: MargaritaTileTest_20
+  - first:
+      213: -2141890466455833599
+    second: MargaritaTileTest_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MargaritaTileTest_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 208
+        width: 600
+        height: 912
+      alignment: 9
+      pivot: {x: 0.381009, y: 0.5778575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d4139767743c330800000000000000
+      internalID: 3729903490557889916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_1
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 1106
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b0f3b4951da9910800000000000000
+      internalID: 1845017178806356861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightShoulder
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 723
+        width: 151
+        height: 409
+      alignment: 9
+      pivot: {x: 0.9769166, y: 0.8083523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbbd462c698a9030800000000000000
+      internalID: 3502262757826083807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightArm
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 759
+        width: 125
+        height: 369
+      alignment: 9
+      pivot: {x: 0.7237373, y: 0.4931737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd150bf17f43e10800000000000000
+      internalID: 2176636235400993704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_4
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 61
+        width: 610
+        height: 1043
+      alignment: 9
+      pivot: {x: 0.4413842, y: 0.2467301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1182d0ed018fb34f0800000000000000
+      internalID: -847811353500637167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_5
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 328
+        width: 305
+        height: 777
+      alignment: 9
+      pivot: {x: 0.5960833, y: 0.8659672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eb67a8d79f85090800000000000000
+      internalID: -8045406416708125136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_6
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 940
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46364fa5d600d49e0800000000000000
+      internalID: -1635650619988221084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_7
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 570
+        width: 197
+        height: 494
+      alignment: 9
+      pivot: {x: 0.6342724, y: 1.0350015}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaec623b2fdbf160800000000000000
+      internalID: 7060482217455971021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_8
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 400
+        width: 263
+        height: 693
+      alignment: 9
+      pivot: {x: 0.0827878, y: 0.9313033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709bf9a566b3b2340800000000000000
+      internalID: 4840027535332849927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_9
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 572
+        width: 166
+        height: 503
+      alignment: 9
+      pivot: {x: 0.28133824, y: 1.0227036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9353596ac93761b0800000000000000
+      internalID: -5663494464881863780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_10
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 910
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f644a7743ffbbb0800000000000000
+      internalID: -4917944779745759483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_11
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 841
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f49e34182c1fc320800000000000000
+      internalID: 2580312069970498807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftArm
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 325
+        width: 105
+        height: 372
+      alignment: 9
+      pivot: {x: 0.7237373, y: 0.4931737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673eb206f36050ab0800000000000000
+      internalID: -5042617338505206922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftShoulder
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 327
+        width: 136
+        height: 408
+      alignment: 9
+      pivot: {x: 0.96285564, y: 0.85990876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b85f8b37cfb4550800000000000000
+      internalID: 6146283690431712109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_14
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 568
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42d3d34cee018ab0800000000000000
+      internalID: -5007704902746254771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_15
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 478
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c578e6d499703700800000000000000
+      internalID: 518047637315286469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightFoot
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 277
+        width: 204
+        height: 224
+      alignment: 9
+      pivot: {x: 0.3259636, y: 0.273815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28eba997ab7cd2b0800000000000000
+      internalID: -5558431880314099669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftFoot
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 259
+        width: 209
+        height: 225
+      alignment: 9
+      pivot: {x: 0.013342461, y: 0.26494792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cc056619fa2cff0800000000000000
+      internalID: -17258409534370693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_18
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91e9e727aca494a0800000000000000
+      internalID: -6587450521007038054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_19
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 85
+        width: 140
+        height: 209
+      alignment: 9
+      pivot: {x: 0.7465515, y: -0.1120172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c723f3a202a2900800000000000000
+      internalID: 660375661184187533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_20
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 107
+        width: 131
+        height: 190
+      alignment: 9
+      pivot: {x: 0.61173534, y: -0.112017624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c98b51bf73d0cf40800000000000000
+      internalID: 5746825669914626505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MargaritaTileTest_21
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 50
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ba1f08f97642e0800000000000000
+      internalID: -2141890466455833599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

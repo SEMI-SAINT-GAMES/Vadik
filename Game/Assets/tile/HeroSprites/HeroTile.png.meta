@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: 8308c684c61234a7ab7be6fa08ec929f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2288286372055474129
+    second: HeroTile_0
+  - first:
+      213: 3102977137150537644
+    second: HeroTile_1
+  - first:
+      213: 3280095891428704533
+    second: HeroTile_2
+  - first:
+      213: -4614733535393031097
+    second: HeroTile_3
+  - first:
+      213: -8488097301861729072
+    second: HeroTile_4
+  - first:
+      213: -4468032872560467887
+    second: HeroTile_5
+  - first:
+      213: 1643922323914723404
+    second: HeroTile_6
+  - first:
+      213: -9178122366953694371
+    second: HeroTile_7
+  - first:
+      213: 382584785301308436
+    second: HeroTile_8
+  - first:
+      213: -8875746193099765859
+    second: HeroTile_9
+  - first:
+      213: -8847224788440806052
+    second: HeroTile_10
+  - first:
+      213: -4244498214972543870
+    second: HeroTile_11
+  - first:
+      213: -3922040213331664172
+    second: HeroTile_12
+  - first:
+      213: -4559426313021027130
+    second: HeroTile_13
+  - first:
+      213: -2350370620351223600
+    second: HeroTile_14
+  - first:
+      213: 5035999117048468827
+    second: HeroTile_15
+  - first:
+      213: -7861342860551792898
+    second: HeroTile_16
+  - first:
+      213: 1144450736586005441
+    second: HeroTile_17
+  - first:
+      213: -1084771712100443846
+    second: HeroTile_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 170
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeroTile_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1890
+        width: 396
+        height: 514
+      alignment: 9
+      pivot: {x: 0.44211307, y: 0.01567701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2024412baf5e30e0800000000000000
+      internalID: -2288286372055474129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1271
+        width: 677
+        height: 1158
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.2392841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf2406144dff0b20800000000000000
+      internalID: 3102977137150537644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_2
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2116
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51183d5a5dd358d20800000000000000
+      internalID: 3280095891428704533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_3
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1828
+        width: 216
+        height: 610
+      alignment: 9
+      pivot: {x: 1.014956, y: 0.8299568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd0d9ac4c25ffb0800000000000000
+      internalID: -4614733535393031097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_4
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1824
+        width: 216
+        height: 594
+      alignment: 9
+      pivot: {x: 1.014956, y: 0.8299568}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc749fc978343a80800000000000000
+      internalID: -8488097301861729072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2057
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150e34a66cb5ef1c0800000000000000
+      internalID: -4468032872560467887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1311
+        width: 479
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40954bc4a260d610800000000000000
+      internalID: 1643922323914723404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_7
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1818
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b58a4c552c0a080800000000000000
+      internalID: -9178122366953694371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_8
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1648
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148a50d5d63f4500800000000000000
+      internalID: 382584785301308436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_9
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1313
+        width: 168
+        height: 490
+      alignment: 9
+      pivot: {x: 1.508891, y: 1.267476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9743c3fcd303d480800000000000000
+      internalID: -8875746193099765859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_10
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1305
+        width: 171
+        height: 494
+      alignment: 9
+      pivot: {x: 1.632791, y: 1.1709788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d84f4fde7583580800000000000000
+      internalID: -8847224788440806052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 456
+        width: 275
+        height: 785
+      alignment: 9
+      pivot: {x: 0.50000006, y: 1.066776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c28ce9c538815c0800000000000000
+      internalID: -4244498214972543870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_12
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 476
+        width: 254
+        height: 761
+      alignment: 9
+      pivot: {x: 0.7502369, y: 1.244734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2a191b43d1299c0800000000000000
+      internalID: -3922040213331664172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 481
+        width: 261
+        height: 749
+      alignment: 9
+      pivot: {x: 0.5, y: 1.066776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc00d8dce9a9b0c0800000000000000
+      internalID: -4559426313021027130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_14
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 491
+        width: 239
+        height: 732
+      alignment: 9
+      pivot: {x: 0.7502369, y: 1.244734}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d86373af5ec16fd0800000000000000
+      internalID: -2350370620351223600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_15
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 988
+        width: 174
+        height: 287
+      alignment: 9
+      pivot: {x: 1.930711, y: 1.930711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55dadcd38673e540800000000000000
+      internalID: 5035999117048468827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_16
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1032
+        width: 180
+        height: 240
+      alignment: 9
+      pivot: {x: 1.930711, y: 1.930711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6d14bc156e6e290800000000000000
+      internalID: -7861342860551792898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 80
+        width: 327
+        height: 351
+      alignment: 9
+      pivot: {x: 0.4028138, y: 1.571403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9421a1e7e1ef00800000000000000
+      internalID: 1144450736586005441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroTile_18
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 115
+        width: 310
+        height: 333
+      alignment: 9
+      pivot: {x: 0.3857282, y: 1.6350266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a395cdd00ed12f0f0800000000000000
+      internalID: -1084771712100443846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
