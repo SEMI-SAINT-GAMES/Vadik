@@ -1,0 +1,35 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class RpgAmmoOrk : EnemtAmmo
+{
+    public GameObject explosion;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Asign();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Do();
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Instantiate(explosion, transform.position, transform.rotation);
+        Invoke("ExplosionMinus", 1f);
+        Control herohealth = collision.gameObject.GetComponent<Control>();
+        if (herohealth != null)
+
+        {
+            herohealth.TakeUron(uron);
+        }
+        Destroy(gameObject);
+    }
+    private void ExplosionMinus()
+    {
+        Destroy(explosion);
+    }
+}
