@@ -149,7 +149,7 @@ RectTransform:
   m_GameObject: {fileID: 1727492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6826543, y: 0.6826543, z: 0.6826543}
   m_Children:
   - {fileID: 1820947127}
   m_Father: {fileID: 1514848366}
@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -98, y: -70}
+  m_AnchoredPosition: {x: -103, y: -54}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1727494
@@ -382,7 +382,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e13fa3c68f64f4d82b277b69ec44efbe, type: 3}
+  m_Sprite: {fileID: -4705361236846966694, guid: 234184d126cfa4f81b45f382a5ade564,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1140,6 +1141,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Loading
       objectReference: {fileID: 0}
+    - target: {fileID: 2627070670958913334, guid: 26bf4e2f73bdb4a7a840a2ef449b00f2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6168201274529856810, guid: 26bf4e2f73bdb4a7a840a2ef449b00f2,
         type: 3}
       propertyPath: m_Camera
@@ -1703,7 +1709,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2061832790}
   m_HandleRect: {fileID: 2061832789}
   m_Direction: 0
-  m_Value: 0.526787
+  m_Value: 0.5492176
   m_Size: 0.26226234
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3546,8 +3552,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 17454666}
   m_HandleRect: {fileID: 17454665}
   m_Direction: 2
-  m_Value: 0.10282338
-  m_Size: 0.16050994
+  m_Value: 0.000000040447837
+  m_Size: 0.12335897
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4412,6 +4418,7 @@ GameObject:
   - component: {fileID: 1514848364}
   - component: {fileID: 1514848363}
   - component: {fileID: 1514848367}
+  - component: {fileID: 1514848368}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4517,6 +4524,102 @@ MonoBehaviour:
   levels:
   - {fileID: 1586485024}
   - {fileID: 1029578851}
+--- !u!82 &1514848368
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514848362}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6b872a5c2f1a84f639ec3e0b0071d301, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.333
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1586485022
 GameObject:
   m_ObjectHideFlags: 0
@@ -4924,7 +5027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59, y: 899}
+  m_AnchoredPosition: {x: -108.40454, y: 1131.7383}
   m_SizeDelta: {x: 3711.1675, y: 3351.546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1663261049
@@ -6013,7 +6116,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e13fa3c68f64f4d82b277b69ec44efbe, type: 3}
+  m_Sprite: {fileID: -4705361236846966694, guid: 234184d126cfa4f81b45f382a5ade564,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

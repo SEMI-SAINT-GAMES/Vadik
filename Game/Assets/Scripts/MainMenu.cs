@@ -6,36 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public Button level2b;
-    public Button level3b;
+    
     public int levelComplete;
     LoadingScreen loadingScreen;
     public Button continueGame;
     public string[] sceneNames;
-
+    public AudioSource click;
     // Start is called before the first frame update
     void Start()
     {
         loadingScreen = GameObject.FindGameObjectWithTag("LoadingScreen").GetComponent<LoadingScreen>();
         levelComplete = PlayerPrefs.GetInt("LevelComplete");
-        /*level2b.interactable = false;
-        level3b.interactable = false;
-
-        switch (levelComplete)
-        {
-            case 1:
-                level2b.interactable = true;
-                break;
-            case 2:
-                level2b.interactable = true;
-                level3b.interactable = true;
-                break;
-
-        }*/
+        
         if (levelComplete > 0)
         {
             continueGame.interactable = true;
         }
+        click = GetComponent<AudioSource>();
     }
     /*public void LoadTo(int level)
     {
@@ -50,6 +37,7 @@ public class MainMenu : MonoBehaviour
     }
     public void Continue()
     {
+        Sound();
         if (levelComplete < sceneNames.Length - 1)
         {
             loadingScreen.Load(sceneNames[levelComplete + 1]);
@@ -61,18 +49,30 @@ public class MainMenu : MonoBehaviour
     }
     public void NewGame()
     {
+        Sound();
         loadingScreen.Load("Level1");
     }
     public void CharacterSettings()
     {
+        Sound();
         loadingScreen.Load("CharacterSettings");
     }
     public void SelectCity()
     {
+        Sound();
         loadingScreen.Load("Map");
     }
     public void ButtonSettings()
     {
+        Sound();
         loadingScreen.Load("ButtonSettings");
+    }
+    public void About()
+    {
+        Sound();
+    }
+    void Sound()
+    {
+        click.Play();
     }
 }

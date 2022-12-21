@@ -9,6 +9,7 @@ public class MapController : MonoBehaviour
     public int levelComplete;
     public Button[] levels;
     LoadingScreen loadingScreen;
+    private AudioSource click;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class MapController : MonoBehaviour
         levelComplete = PlayerPrefs.GetInt("LevelComplete");
         Debug.Log(levelComplete);
         LevelAsign();
-
+        click = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,18 +44,26 @@ public class MapController : MonoBehaviour
     }
     public void Level1()
     {
+        Sound();
        loadingScreen.Load("Level1");
     }
     public void Level2()
     {
+        Sound();
         loadingScreen.Load("Level2");
     }
     public void Level3()
     {
+        Sound();
         loadingScreen.Load("Level3");
     }
     public void LoadMainMenu()
     {
+        Sound();
         loadingScreen.Load("MainMenu");
+    }
+    void Sound()
+    {
+        click.Play();
     }
 }

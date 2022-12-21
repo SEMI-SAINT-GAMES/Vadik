@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     int sceneIndex1;
     LoadingScreen loadingScreen;
     public string[] sceneNames;
+    private AudioSource click;
     
 
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class PauseMenu : MonoBehaviour
     {
         sceneIndex1 = SceneManager.GetActiveScene().buildIndex;
         loadingScreen = GameObject.FindGameObjectWithTag("LoadingScreen").GetComponent<LoadingScreen>();
+        click = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -42,22 +44,32 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
+        Sound();
     }
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
+        Sound();
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
     public void Menu()
     {
+        Sound();
         loadingScreen.Load(sceneNames[0]);
         Time.timeScale = 1f;
+        
     }
     public void Restart()
     {
         loadingScreen.Load(sceneNames[sceneIndex1]);
+        
         Time.timeScale = 1f;
+        Sound();
+    }
+    void Sound()
+    {
+        click.Play();
     }
 
      

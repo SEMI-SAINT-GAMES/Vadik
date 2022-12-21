@@ -76,7 +76,7 @@ public class AK47 : MonoBehaviour
     public GameObject[] ammos;
     public int currentWeapon;
     public bool isShooting;
-
+    public AudioSource tankRecharge;
 
 
 
@@ -463,7 +463,7 @@ public class AK47 : MonoBehaviour
             GameObject fr = Instantiate(fireTank, fireDirTank[currentTank].position, transform.rotation) as GameObject;
             fr.GetComponent<Fire>().isRight = control.isRight;
             fr.transform.localScale = new Vector3(0.1f, 0.35f, 0.01f);
-            
+            Invoke("TankRecharge", 0.4f);
             tankShotTimer = tankShotTimers[currentTank];
         }
         else
@@ -473,6 +473,10 @@ public class AK47 : MonoBehaviour
         }
         
         
+    }
+    void TankRecharge()
+    {
+        tankRecharge.Play();
     }
    
 
