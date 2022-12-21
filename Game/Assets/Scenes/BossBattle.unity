@@ -833,6 +833,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 1
   m_AspectRatio: 1.675926
+--- !u!1 &182332624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 182332625}
+  m_Layer: 0
+  m_Name: DeadLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &182332625
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182332624}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 281.7, y: -46.9, z: -361.5778}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &206748031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,7 +5268,7 @@ PrefabInstance:
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920.0001
+      value: 1245
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
@@ -5248,17 +5278,17 @@ PrefabInstance:
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0129629625
+      value: 0.02559415
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0129629625
+      value: 0.02559415
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0129629625
+      value: 0.02559415
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
@@ -7239,6 +7269,11 @@ PrefabInstance:
       propertyPath: m4Panel
       value: 
       objectReference: {fileID: 4110272676724651480}
+    - target: {fileID: 1664984598198282974, guid: a21a63007fee94480b5a8b50432e4e9e,
+        type: 3}
+      propertyPath: deadLine
+      value: 
+      objectReference: {fileID: 182332625}
     - target: {fileID: 1664984598198282974, guid: a21a63007fee94480b5a8b50432e4e9e,
         type: 3}
       propertyPath: animoTank
