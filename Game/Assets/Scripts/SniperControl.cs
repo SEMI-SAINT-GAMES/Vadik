@@ -22,6 +22,7 @@ public class SniperControl : MonoBehaviour
     public AudioSource shotSound;
     public AudioSource emptySound;
     public AudioSource rechargeSound;
+    public AudioSource rechargeMagazin;
     public int ammoCount;
     public Text ammoText;
     public int allAmmo;
@@ -93,7 +94,7 @@ public class SniperControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ammoCount > 0)
+        if (ammoCount > 0 && ammoCount != 10)
         {
             if (fill < 1)
             {
@@ -101,6 +102,18 @@ public class SniperControl : MonoBehaviour
                 
             }
             
+        }
+        else if (ammoCount == 10)
+        {
+            if (fill < 1)
+            {
+                fill += Time.deltaTime * 0.065f;
+
+            }
+            else
+            {
+                rechargeMagazin.Stop();
+            }
         }
 
         bullet.fillAmount = fill;
@@ -156,8 +169,15 @@ public class SniperControl : MonoBehaviour
     }
     public void Recharge()
     {
-       
-        rechargeSound.Play();
+       if (ammoCount == 10)
+        {
+            rechargeMagazin.Play();
+        }
+       else 
+        {
+            rechargeSound.Play();
+        }
+        
         
     }
    

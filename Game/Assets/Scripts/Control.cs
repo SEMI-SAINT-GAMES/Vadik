@@ -402,7 +402,7 @@ public class Control : MonoBehaviour
         ak.currentWeapon = 1;
         anim.SetBool("InTank", true);
 
-        timerStart = 500;
+        timerStart = 10;
         tankActivate.enabled = false;
         javIsActivated = false;
         TankShootButton.SetActive(true);

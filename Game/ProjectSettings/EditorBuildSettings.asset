@@ -6,36 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: e1b5d0452a5724238a475c4d82dc15fc
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Level1.unity
     guid: 333cab47bb26340b2a73639ca1228744
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Level2.unity
+    path: Assets/Scenes/Level2.unity
     guid: 22107e2a4d93f4e969b25449890a676f
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Level3.unity
+    path: Assets/Scenes/Level3.unity
     guid: 4722a3b1bbf7347a1a1be607e1635012
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/CharacterSettings.unity
+    path: Assets/Scenes/CharacterSettings.unity
     guid: 2a5e8cc450dd24b9d987ff687e497b88
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Stugna.unity
+    path: Assets/Scenes/Stugna.unity
     guid: 990c262960f8d4cffabd782237e00825
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Sniper.unity
+    path: Assets/Scenes/Sniper.unity
     guid: ce243b6fd74e243f98dd58d4ecf1119d
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Kopter.unity
+    path: Assets/Scenes/Kopter.unity
     guid: acb3b09abe33241b2823dec165f0ba93
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/BossBattle.unity
+    path: Assets/Scenes/BossBattle.unity
     guid: c46877a58580f4495a7079e873658c71
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/ButtonSettings.unity
+    path: Assets/Scenes/ButtonSettings.unity
     guid: f453ca7dffbf94cf0b62873b09715bec
   - enabled: 1
-    path: /Users/vadsh/RAVNCHE/My project (1)/Assets/Scenes/Map.unity
+    path: Assets/Scenes/Map.unity
     guid: fd099227029504be6a9c96acff5e7c68
   m_configObjects: {}

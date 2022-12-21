@@ -34,6 +34,8 @@ public class CharacterSettings : MonoBehaviour
     public GameObject[] views;
     public int curView;
     public Text coinCount;
+    private AudioSource click;
+    public AudioSource[] sounds;
     
     // Start is called before the first frame update
     void Start()
@@ -52,6 +54,7 @@ public class CharacterSettings : MonoBehaviour
         currentGrenadeStr = PlayerPrefs.GetString("GrenadeLaunchStr");
         currentTankStr = PlayerPrefs.GetString("CurrentTankStr");
         Debug.Log(currentWeaponStr);
+        click = GetComponent<AudioSource>();
         Asign();
     }
 
@@ -127,6 +130,7 @@ public class CharacterSettings : MonoBehaviour
     }
     public void SelectWeapon ()
     {
+        sounds[0].Play();
         if (currentWeapon <= weaponSprite.Length - 1)
         {
             weapon.GetComponentInChildren<SpriteRenderer>().sprite = weaponSprite[currentWeapon];
@@ -140,6 +144,7 @@ public class CharacterSettings : MonoBehaviour
     }
     public void SelectGrenade()
     {
+        sounds[1].Play();
         if (currentGrenade <= grenadeSprite.Length - 1)
         {
             grenade.GetComponentInChildren<SpriteRenderer>().sprite = grenadeSprite[currentGrenade];
@@ -148,6 +153,7 @@ public class CharacterSettings : MonoBehaviour
     }
     public void SelectTank()
     {
+        sounds[2].Play();
         if (currentTank <= tankEnables.Length - 1)
         {
             PlayerPrefs.SetInt("CurrentTank", currentTank);
@@ -240,6 +246,7 @@ public void WeaponView()
         grenadeView.SetActive(false);
         tankView.SetActive(false);
         wearingView.SetActive(false);*/
+        ClickSound();
         curView = 0;
         ViewSelect();
         foreach(GameObject w in characterWeaponArms)
@@ -255,10 +262,8 @@ public void WeaponView()
 
     public void GrenadeView()
     {
-        /*weaponView.SetActive(false);
-        grenadeView.SetActive(true);
-        tankView.SetActive(false);
-        wearingView.SetActive(false);*/
+        
+        ClickSound();
         curView = 1;
         ViewSelect();
         foreach (GameObject w in characterWeaponArms)
@@ -273,30 +278,28 @@ public void WeaponView()
     }
     public void TankView()
     {
-        /*weaponView.SetActive(false);
-        grenadeView.SetActive(false);
-        wearingView.SetActive(false);
-        tankView.SetActive(true);*/
+        
+        ClickSound();
         curView = 2;
         ViewSelect();
 
     }
     public void HelmetView()
     {
-        /* weaponView.SetActive(false);
-         grenadeView.SetActive(false);
-         wearingView.SetActive(true);
-         tankView.SetActive(false);*/
+        
+        ClickSound();
         curView = 3;
         ViewSelect();
     }
     public void TorsoView()
     {
+        ClickSound();
         curView = 4;
         ViewSelect();
     }
     public void PansView()
     {
+        ClickSound();
         curView = 5;
         ViewSelect();
     }
@@ -330,5 +333,9 @@ public void Leopard()
     {
         currentTank = 5;
         SelectTank();
+    }
+    void ClickSound()
+    {
+        click.Play();
     }
 }
