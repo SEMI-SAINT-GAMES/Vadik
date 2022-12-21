@@ -26,7 +26,7 @@ public class InfoPanel : MonoBehaviour
     public string[] bigTextsTank;
     public string[] namesTank;
     public Sprite[] tankSprites;
-
+    public AudioSource click;
 
 
 
@@ -62,6 +62,7 @@ public class InfoPanel : MonoBehaviour
             foto.sprite = GetComponent<CharacterSettings>().SecretWeapon;
             infoPanel.SetActive(true);
         }
+        click.Play();
     }
     public void ButClickGrenade(int cur)
     {
@@ -79,6 +80,7 @@ public class InfoPanel : MonoBehaviour
             foto.sprite = GetComponent<CharacterSettings>().secretGrenade;
             infoPanel.SetActive(true);
         }
+        click.Play();
     }
     public void ButClickTank(int cur)
     {
@@ -96,6 +98,7 @@ public class InfoPanel : MonoBehaviour
             foto.sprite = GetComponent<CharacterSettings>().secretTank;
             infoPanel.SetActive(true);
         }
+        click.Play();
     }
     
     public void ClosePanel()

@@ -28,6 +28,8 @@ public class WearCharacterSettings : MonoBehaviour
     public GameObject confilmPanelHelmet;
     public GameObject confilmPanelTorso;
     public GameObject confilmPanelPans;
+    public AudioSource wearSound;
+    bool isStart = true;
 
     // Start is called before the first frame update
     void Start()
@@ -72,6 +74,11 @@ public class WearCharacterSettings : MonoBehaviour
                 }
             }
         }
+        if (!isStart)
+        {
+            wearSound.Play();
+        }
+        isStart = false;
     }
     public void PixelHelmet()
     {

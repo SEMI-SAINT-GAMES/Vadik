@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c967ba5fd18cb45d0b277654ddddae9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
+  health: 2
   killPoint: 0
   dieSound: {fileID: 0}
   damageSound: {fileID: 0}

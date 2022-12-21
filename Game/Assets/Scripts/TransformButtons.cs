@@ -17,6 +17,8 @@ public class TransformButtons : MonoBehaviour
     public float difference;
     public Text text;
     private string[] texts = new string[2];
+    private AudioSource click;
+    public AudioSource done;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,12 +27,8 @@ public class TransformButtons : MonoBehaviour
         texts[1] = "Натисніть трьома пальцями, щоб підтвертиди";
         text.text = texts[0];
 
-        /*foreach (GameObject but in Buttons)
-        {
-            PlayerPrefs.SetFloat(but.name + "TransformX", but.transform.position.x);
-            PlayerPrefs.SetFloat(but.name + "TransformY", but.transform.position.y);
-            PlayerPrefs.SetFloat(but.name + "Scale", but.transform.localScale.x);
-        }*/
+        
+        click = GetComponent<AudioSource>();
         LoadTransform();
     }
 
@@ -60,7 +58,7 @@ public class TransformButtons : MonoBehaviour
                 currentDistTouch = (touchZero.position - touchOne.position).magnitude;
 
                 difference = currentDistTouch - distTouch;
-                Zoom(difference * 0.01f);
+                Zoom(difference * 0.005f);
 
             }
             else if (Input.touchCount == 3)
@@ -96,6 +94,7 @@ public class TransformButtons : MonoBehaviour
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void JumpButton()
@@ -103,10 +102,11 @@ public class TransformButtons : MonoBehaviour
         if (!inSet)
         {
             currentButton = 1;
-            Debug.Log("done");
+            
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void JavelButton()
@@ -117,6 +117,7 @@ public class TransformButtons : MonoBehaviour
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void TankButton()
@@ -127,6 +128,7 @@ public class TransformButtons : MonoBehaviour
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void TankShootButton()
@@ -137,6 +139,7 @@ public class TransformButtons : MonoBehaviour
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void ShootButton()
@@ -147,6 +150,7 @@ public class TransformButtons : MonoBehaviour
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void DoingButton()
@@ -157,6 +161,7 @@ public class TransformButtons : MonoBehaviour
             inSet = true;
             Buttons[currentButton].GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             text.text = texts[1];
+            click.Play();
         }
     }
     public void Done()
@@ -167,8 +172,9 @@ public class TransformButtons : MonoBehaviour
         PlayerPrefs.SetFloat(Buttons[currentButton].name + "TransformX", Buttons[currentButton].transform.position.x);
         PlayerPrefs.SetFloat(Buttons[currentButton].name + "TransformY", Buttons[currentButton].transform.position.y);
         PlayerPrefs.SetFloat(Buttons[currentButton].name + "Scale", Buttons[currentButton].transform.localScale.x);
-
+        done.Play();
 
 
     }
+
 }

@@ -15,6 +15,9 @@ public class ConfilmPanel : MonoBehaviour
     public string opens;
     public int[] price;
     public string[] currentName;
+    public AudioSource buySound;
+    public AudioSource cancelSound;
+    public AudioSource clickSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,22 +42,24 @@ public class ConfilmPanel : MonoBehaviour
             
             PlayerPrefs.SetString("OpenHelmet", opens += "/" + currentName[currentConfilm]);
             Invoke("ButActive", 0.3f);
-           
+            buySound.Play();
             gameObject.SetActive(false);
-            Debug.Log("YouBuy");
+            
            
 
         }
        else
         {
-            //Sound and animo!!!
-            Debug.Log("NoMoney");
+            cancelSound.Play();
+            
             GetComponent<Animator>().SetTrigger("No");
         }
     }
     public void No()
     {
+        clickSound.Play();
         gameObject.SetActive(false);
+
     }
     public void ButActive()
     {
