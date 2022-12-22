@@ -69,4 +69,8 @@ public class KirBossWeapon : MonoBehaviour
         }
         Instantiate(knife, knifeDir.position, Quaternion.identity);
     }
+    public void FireBallAudio()
+    {
+        GetComponentInChildren<AudioSource>().Play();
+    }
 }

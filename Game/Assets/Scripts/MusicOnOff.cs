@@ -25,7 +25,7 @@ public class MusicOnOff : MonoBehaviour
 
         if (currentOnOff == 1) 
         {
-            music.volume = 1f;
+            music.volume = 0.3f;
             isOn = true;
             musicOnOff.sprite = musicOn;
             PlayerPrefs.SetInt("IsOnMusic", onMusic);
@@ -49,7 +49,7 @@ public class MusicOnOff : MonoBehaviour
     {
         if (!isOn)
         {
-            music.volume = 1f;
+            music.volume = 0.3f;
             isOn = true;
             musicOnOff.sprite = musicOn;
             PlayerPrefs.SetInt("IsOnMusic", onMusic);

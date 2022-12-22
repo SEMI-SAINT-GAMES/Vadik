@@ -18,15 +18,19 @@ public class EducationManager : MonoBehaviour
     public GameObject[] eduBox;
     public Queue<string> sentences;
     public Queue<string> answers;
+    public Queue<AudioSource> sound;
+    public AudioSource[] sounds; 
     public Button hrAnswer;
     public bool isEndButton;
-    public AudioSource[] sound;
+    
+    
     
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
         answers = new Queue<string>();
+        sound = new Queue<AudioSource>();
         //PlayerPrefs.SetInt("CurrentEdu", 0);//TEST, УБРАТЬ ПОСЛЕ БИЛДИНГА!!!
        /* if (PlayerPrefs.GetInt("CurrentEdu") > 0)
         {
@@ -82,6 +86,10 @@ public class EducationManager : MonoBehaviour
     {
         sentences.Clear();
         answers.Clear();
+        if (sound != null)
+        {
+            sound.Clear();
+        }
         eduPanel.SetActive(true);
         eduBut.SetActive(true);
         foto.sprite = dialog.foto;
@@ -93,8 +101,12 @@ public class EducationManager : MonoBehaviour
         {
             answers.Enqueue(answer);
         }
+        foreach(AudioSource audio in dialog.dialSound)
+        {
+            sound.Enqueue(audio);
+        }
         DisplayNextSentence();
-        //Debug.Log(sentences);
+        Debug.Log(sound);
     }
     public void DisplayNextSentence()
     {
@@ -106,25 +118,36 @@ public class EducationManager : MonoBehaviour
         }
         string sentence = sentences.Dequeue();
         string answer = answers.Dequeue();
-        StartCoroutine(TypeSentence(sentence, answer));
+       
+            AudioSource audio = sound.Dequeue();
+        
+        
+        audio.Play();
+        
+        
+        StartCoroutine(TypeSentence(sentence, answer, audio));
+        
         
        
     }
-    IEnumerator TypeSentence(string sentence,string answer)
+    IEnumerator TypeSentence(string sentence,string answer, AudioSource audio)
     {
-        int rand = Random.Range(0, sound.Length - 1);
+        //int rand = Random.Range(0, sound.Length - 1);
         text.text = "";
         hrText.text = "";
-        sound[rand].Play();
-
+        if (audio != null)
+        {
+            audio.Play();
+        }
         foreach (char letter in sentence.ToCharArray())
         {
             text.text += letter;
             yield return null;
         }
+        
 
 
-        sound[rand].Stop();
+
         yield return new WaitForEndOfFrame();
 
         foreach (char letter in answer.ToCharArray())

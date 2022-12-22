@@ -145,6 +145,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   destroyTime: 5
-  uron: 1
+  uron: 0
   movRight: 0
   blood: {fileID: 8235450258199960558, guid: 635e4ca57e95741d2bd41f3cf1602ec0, type: 3}

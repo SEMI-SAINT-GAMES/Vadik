@@ -9,4 +9,5 @@ public class Dialog
     [TextArea(3,10)]
     public string[] sentences;
     public string[] answers;
+    public AudioSource[] dialSound;
 }

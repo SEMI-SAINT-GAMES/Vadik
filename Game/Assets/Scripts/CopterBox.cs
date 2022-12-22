@@ -38,6 +38,7 @@ public class CopterBox : MonoBehaviour
             PlayerPrefs.SetInt("CurrentCopter", currentCopter);
             PlayerPrefs.SetFloat("PlayerPosXBuf", control.transform.position.x + 3);
             PlayerPrefs.SetFloat("PlayerPosYBuf", control.transform.position.y);
+            
             //control.SavePosition();
 
         }
@@ -46,5 +47,10 @@ public class CopterBox : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("LoadingScreen").GetComponent<LoadingScreen>().Load("Kopter");
     }
+    public void SoundCopter()
+    {
+        GetComponentInChildren<AudioSource>().Play();
+    }
+    
 
 }

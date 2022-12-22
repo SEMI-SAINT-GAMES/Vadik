@@ -96,6 +96,7 @@ public class Control : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         //PlayerPrefs.SetFloat("PlayerPosX", 0);
         //PlayerPrefs.SetFloat("PlayerPosY", 0);
         if (inSafePos)
@@ -170,7 +171,7 @@ public class Control : MonoBehaviour
         }
 
 
-        if (transform.position.y < deadLine.position.y)
+        if (deadLine != null && transform.position.y < deadLine.position.y)
         {
             death.SetActive(true);
             gameObject.SetActive(false);
