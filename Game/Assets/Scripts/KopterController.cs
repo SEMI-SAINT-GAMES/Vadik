@@ -143,7 +143,7 @@ public class KopterController : MonoBehaviour
     public void OnShootDown()
     {
         Invoke("OnShotDelay2", 3f);
-        
+        GetComponentInChildren<AudioSource>().Play();
         
     }
     public void OnShootDelay()

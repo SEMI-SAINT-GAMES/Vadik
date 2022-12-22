@@ -18,6 +18,7 @@ public class EduBox : MonoBehaviour
     public void Asign()
     {
         educationManager = GameObject.FindGameObjectWithTag("EduManager").GetComponent<EducationManager>();
+        
     }
 
 
@@ -44,7 +45,7 @@ public class EduBox : MonoBehaviour
              }*/
 
             GetDialog();
-            Destroy(gameObject);
+            Destroy(GetComponent<BoxCollider2D>());
 
         }
        
@@ -54,7 +55,7 @@ public class EduBox : MonoBehaviour
     {
 
         educationManager.StartDialog(dialog);
-        Debug.Log("dial");
+        
     }
 
 }

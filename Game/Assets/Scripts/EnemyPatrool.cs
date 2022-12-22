@@ -281,7 +281,7 @@ public class EnemyPatrool : MonoBehaviour
     public void Death()
     {
         Debug.Log("kkas");
-        Instantiate(deathDrop[Random.Range(0, deathDrop.Length - 1)], transform.position, Quaternion.identity);
+        //Instantiate(deathDrop[Random.Range(0, deathDrop.Length - 1)], transform.position, Quaternion.identity);
        
         gameObject.SetActive(false);
 
