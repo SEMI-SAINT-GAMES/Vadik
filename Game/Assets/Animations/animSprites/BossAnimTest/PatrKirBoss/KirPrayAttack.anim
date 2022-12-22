@@ -5433,7 +5433,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.76666665
+  - time: 1.0833334
     functionName: FireBallAudio
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -5447,7 +5447,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.8833333
+  - time: 2.0166667
     functionName: FireBallAudio
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -5461,7 +5461,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.85
+  - time: 3
     functionName: FireBallAudio
     data: 
     objectReferenceParameter: {fileID: 0}

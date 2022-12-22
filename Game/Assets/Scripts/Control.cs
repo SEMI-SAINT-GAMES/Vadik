@@ -171,7 +171,7 @@ public class Control : MonoBehaviour
         }
 
 
-        if (transform.position.y < deadLine.position.y)
+        if (deadLine != null && transform.position.y < deadLine.position.y)
         {
             death.SetActive(true);
             gameObject.SetActive(false);

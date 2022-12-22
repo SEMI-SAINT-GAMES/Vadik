@@ -1059,6 +1059,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!61 &244167983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1276,6 +1277,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!1 &354686358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7681839363733147404, guid: 927b4abefba39472899e0b861e22e1db,
@@ -1454,6 +1456,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2095629574311586731, guid: fc6c7ff7d79df4c1f83e25ec0e838257,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 2120452553115265842, guid: fc6c7ff7d79df4c1f83e25ec0e838257,
         type: 3}
@@ -5238,7 +5245,7 @@ PrefabInstance:
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920.0001
+      value: 2687.9998
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
@@ -5248,17 +5255,17 @@ PrefabInstance:
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0129629625
+      value: 0.011272142
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0129629625
+      value: 0.011272142
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0129629625
+      value: 0.011272142
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
@@ -6544,6 +6551,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!114 &788885289 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1383971378754285512, guid: e7df1094362124df4a2391b1f9ae8b06,
@@ -7222,6 +7230,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!1001 &1043991431
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7623,12 +7632,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3755e21243514e709e96d5f692454e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &1047973557 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3118049231960970975, guid: 56bc77fa58d2d4d0aaff7f7b6c6b41e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 6087040968661965770}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1051027181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7681839364397103518, guid: 927b4abefba39472899e0b861e22e1db,
@@ -8138,6 +8141,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!1 &1224316839
 GameObject:
   m_ObjectHideFlags: 0
@@ -8218,6 +8222,7 @@ MonoBehaviour:
     answers:
     - ytfytfkuguoyf
     - igouygy
+    dialSound: []
 --- !u!1 &1253424270
 GameObject:
   m_ObjectHideFlags: 0
@@ -21385,12 +21390,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1467064877}
   m_CullTransparentMesh: 0
---- !u!82 &1469478780 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3466618625712298765, guid: 56bc77fa58d2d4d0aaff7f7b6c6b41e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 6087040968661965770}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1488308944
 GameObject:
   m_ObjectHideFlags: 0
@@ -21569,6 +21568,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!82 &1510694814 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 6283198217207630492, guid: 56bc77fa58d2d4d0aaff7f7b6c6b41e4,
@@ -21627,6 +21627,7 @@ MonoBehaviour:
     answers:
     - 3333
     - 44444
+    dialSound: []
 --- !u!1 &1587121080
 GameObject:
   m_ObjectHideFlags: 0
@@ -21967,12 +21968,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8942331047512743583}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1678171645 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 635737665011174736, guid: 56bc77fa58d2d4d0aaff7f7b6c6b41e4,
-    type: 3}
-  m_PrefabInstance: {fileID: 6087040968661965770}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1692727812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22235,6 +22230,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!114 &1712136562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22458,6 +22454,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!61 &1795151113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22739,12 +22736,9 @@ MonoBehaviour:
   hrText: {fileID: 84674721}
   foto: {fileID: 1818073993}
   eduBox: []
+  sounds: []
   hrAnswer: {fileID: 206748033}
   isEndButton: 0
-  sound:
-  - {fileID: 1047973557}
-  - {fileID: 1678171645}
-  - {fileID: 1469478780}
 --- !u!4 &1874222129
 Transform:
   m_ObjectHideFlags: 0
@@ -23931,6 +23925,7 @@ MonoBehaviour:
     foto: {fileID: 0}
     sentences: []
     answers: []
+    dialSound: []
 --- !u!61 &2108976008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24502,6 +24497,11 @@ PrefabInstance:
       value: "\u0412\u0438 \u0437\u0430\u0445\u043E\u043F\u0438\u043B\u0438 \u041B\u043E\u0433\u043E\u0432\u043E
         \u0410\u043D\u0442\u0438\u0445\u0440\u0438\u0441\u0442\u0430"
       objectReference: {fileID: 0}
+    - target: {fileID: 4880128337096968200, guid: e7df1094362124df4a2391b1f9ae8b06,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 64.03369
+      objectReference: {fileID: 0}
     - target: {fileID: 4880128337198851664, guid: e7df1094362124df4a2391b1f9ae8b06,
         type: 3}
       propertyPath: m_IsActive
@@ -24798,7 +24798,7 @@ PrefabInstance:
     - target: {fileID: 6247351399656464175, guid: f48f56b372b3c49a2bf0ca0331caafee,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 56.356018
+      value: 56.35608
       objectReference: {fileID: 0}
     - target: {fileID: 6247351399656464175, guid: f48f56b372b3c49a2bf0ca0331caafee,
         type: 3}
@@ -25489,6 +25489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ShootDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681839363733147395, guid: 927b4abefba39472899e0b861e22e1db,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 56.741943
       objectReference: {fileID: 0}
     - target: {fileID: 7681839363887642489, guid: 927b4abefba39472899e0b861e22e1db,
         type: 3}
