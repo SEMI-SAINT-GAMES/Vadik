@@ -4605,36 +4605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &441814485
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 441814486}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &441814486
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 441814485}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.9871, y: 17.036427, z: -7.280591}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444795722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2029033510961447934, guid: fc6c7ff7d79df4c1f83e25ec0e838257,
@@ -5275,7 +5245,7 @@ PrefabInstance:
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 2687.9998
+      value: 1222
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
@@ -5285,17 +5255,17 @@ PrefabInstance:
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.011272142
+      value: 0.024866786
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.011272142
+      value: 0.024866786
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.011272142
+      value: 0.024866786
       objectReference: {fileID: 0}
     - target: {fileID: 7080541649684175648, guid: 96ac85b26f4e9444a8574cb0b4895a20,
         type: 3}
