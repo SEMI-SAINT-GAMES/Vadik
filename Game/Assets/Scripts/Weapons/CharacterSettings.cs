@@ -47,8 +47,8 @@ public class CharacterSettings : MonoBehaviour
         currentWeaponStr = PlayerPrefs.GetString("CurrentWeaponStr");
        
         //PlayerPrefs.SetInt("CurrentWeapon1", 2);
-        PlayerPrefs.SetInt("CurrentTank1", 2);
-        PlayerPrefs.SetInt("GrenadeLaunch1", 2);
+        //PlayerPrefs.SetInt("CurrentTank1", 2);
+        //PlayerPrefs.SetInt("GrenadeLaunch1", 2);
         isGrenade = false;
         currentGrenade = PlayerPrefs.GetInt("GrenadeLaunch");
         currentGrenadeStr = PlayerPrefs.GetString("GrenadeLaunchStr");
