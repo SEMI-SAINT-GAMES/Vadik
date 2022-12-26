@@ -44,9 +44,17 @@ public class CameraTransform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            TransformRight();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            TransformLeft();
+        }
 
-       
-            Vector3 target;
+
+        Vector3 target;
         Vector3 lastPos = transform.position;
             if (isLeft)
             {
