@@ -32,6 +32,7 @@ public class GrenadeLaunchBox : MonoBehaviour
             if (currentWeaponStr.Contains(weaponStr)) 
             {
                 weaponBoxAnim.SetBool("Open", true);
+                GetComponent<AudioSource>().Play();
                 GetComponent<BoxCollider2D>().enabled = false;
                 Debug.Log("gg");
                 
@@ -39,6 +40,7 @@ public class GrenadeLaunchBox : MonoBehaviour
             else
             {
                 weaponBoxAnim.SetBool("Open", true);
+                GetComponent<AudioSource>().Play();
                 PlayerPrefs.SetInt("GrenadeLaunch1", weapon);
                 PlayerPrefs.SetString("GrenadeLaunchStr", currentWeaponStr + "/"+ weaponStr);
                 ak47.Invoke("GrenadeActivate", 1.3f);

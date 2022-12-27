@@ -33,13 +33,14 @@ public class WeaponBox : MonoBehaviour
             {
                 weaponBoxAnim.SetBool("Open", true);
                 GetComponent<BoxCollider2D>().enabled = false;
-                
+                GetComponent<AudioSource>().Play();
                 
             }
             else
             {
                 control.collecting = true;
                 weaponBoxAnim.SetBool("Open", true);
+                GetComponent<AudioSource>().Play();
                 control.speed = 0;
                 control.currentWeapon1 = weapon;
                 PlayerPrefs.SetInt("CurrentWeapon1", weapon);

@@ -25,9 +25,6 @@ public class EnemyPatrool : MonoBehaviour
     private Control Hr;
     public AudioSource enShoot;
     public int health = 3;
-    private Material matBlink;
-    private Material matDef;
-    private SpriteRenderer spriteRend;
     public int killPoint;
     public AudioSource[] dieSound;
     public bool isShooting;
@@ -63,10 +60,8 @@ public class EnemyPatrool : MonoBehaviour
         Hero = GameObject.FindGameObjectWithTag("Player");
         Hr = Hero.GetComponent<Control>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        spriteRend = GetComponent<SpriteRenderer>();
-        matBlink = Resources.Load("EnemyBlink", typeof(Material)) as Material;
         
-        matDef = spriteRend.material;
+        
         rb = GetComponent<Rigidbody2D>();
         enemtAmmo = ammo.GetComponent<EnemtAmmo>();
         isShooting = false;
@@ -191,7 +186,7 @@ public class EnemyPatrool : MonoBehaviour
 
     {
         health -= damage;
-        spriteRend.material = matBlink;
+        
        
         if (health <= 0 && alive)
         {
@@ -241,11 +236,7 @@ public class EnemyPatrool : MonoBehaviour
         }
     }
 
-    void ResetMaterial()
-    {
-        spriteRend.material = matDef;
-        
-    }
+   
 
     public void Die()
     {
@@ -253,11 +244,15 @@ public class EnemyPatrool : MonoBehaviour
         {
             
             alive = false;
-            ResetMaterial();
+            
             anim.SetBool("Die", true);
             coinManager.CoinPlus(killPoint);
-            int rand = Random.Range(0, dieSound.Length - 1);
-            dieSound[rand].Play();
+            
+            if (dieSound.Length != 0)
+            {
+                int rand = Random.Range(0, dieSound.Length - 1);
+                dieSound[rand].Play();
+            }
            
             
             if (battleManager != null)
@@ -293,10 +288,13 @@ public class EnemyPatrool : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(new Vector2(point.position.x + PosOfPatr, point.position.y), new Vector2(point.position.x - PosOfPatr, point.position.y));
-        Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, new Vector2(transform.position.x - stoppingDistance, transform.position.y));
+        if (point != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawLine(new Vector2(point.position.x + PosOfPatr, point.position.y), new Vector2(point.position.x - PosOfPatr, point.position.y));
+            Gizmos.color = Color.blue;
+            Gizmos.DrawLine(transform.position, new Vector2(transform.position.x - stoppingDistance, transform.position.y));
+        }
     }
     
 

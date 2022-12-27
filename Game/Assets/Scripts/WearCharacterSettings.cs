@@ -30,14 +30,22 @@ public class WearCharacterSettings : MonoBehaviour
     public GameObject confilmPanelPans;
     public AudioSource wearSound;
     bool isStart = true;
+    public bool inSave;
 
     // Start is called before the first frame update
     void Start()
     {
         torsos = new Sprite[3, 9] { { torsoPixel[0], torsoPixel[1], torsoPixel[2], torsoPixel[3], torsoPixel[4], torsoPixel[5] , torsoPixel[6] , torsoPixel[7] , torsoPixel[8] }, { torsoMulticam[0], torsoMulticam[1], torsoMulticam[2], torsoMulticam[3], torsoMulticam[4], torsoMulticam[5], torsoMulticam[6], torsoMulticam[7], torsoMulticam[8]}, { torsoMarpat[0], torsoMarpat[1], torsoMarpat[2], torsoMarpat[3], torsoMarpat[4], torsoMarpat[5], torsoMarpat[6], torsoMarpat[7], torsoMarpat[8] } };
         panses = new Sprite[3, 4] { { pansPixel[0], pansPixel[1], pansPixel[2], pansPixel[3] }, { pansMulticam[0], pansMulticam[1], pansMulticam[2], pansMulticam[3] }, { pansMarpat[0], pansMarpat[1], pansMarpat[2], pansMarpat[3]} };
+        if (inSave)
+        {
+            curHelmet = PlayerPrefs.GetInt("CurrentHelmet");
+            curTorso = PlayerPrefs.GetInt("CurrentTorso");
+            curPans = PlayerPrefs.GetInt("CurrentPans");
+        }
         CurWear1();
-       
+        
+        
 
     }
 
@@ -83,6 +91,7 @@ public class WearCharacterSettings : MonoBehaviour
     public void PixelHelmet()
     {
          curHelmet = 0;
+        PlayerPrefs.SetInt("CurrentHelmet", curHelmet);
          CurWear1();
     }
     public void MultiHelmet()
@@ -90,6 +99,7 @@ public class WearCharacterSettings : MonoBehaviour
         if (butNameHelmet.Contains("MultiHelmet"))
         {
             curHelmet = 1;
+            PlayerPrefs.SetInt("CurrentHelmet", curHelmet);
             CurWear1();
         }
         else
@@ -104,6 +114,7 @@ public class WearCharacterSettings : MonoBehaviour
         if (butNameHelmet.Contains("MarpatHelmet"))
         {
             curHelmet = 2;
+            PlayerPrefs.SetInt("CurrentHelmet", curHelmet);
             CurWear1();
         }
         else
@@ -118,6 +129,7 @@ public class WearCharacterSettings : MonoBehaviour
     {
        
         curTorso = 0;
+        PlayerPrefs.SetInt("CurrentTorso", curTorso);
         CurWear1();
     }
     public void MultiTorso()
@@ -125,6 +137,7 @@ public class WearCharacterSettings : MonoBehaviour
         if (butNameTorso.Contains("MultiTorso"))
         {
             curTorso = 1;
+            PlayerPrefs.SetInt("CurrentTorso", curTorso);
             CurWear1();
         }
         else
@@ -139,6 +152,7 @@ public class WearCharacterSettings : MonoBehaviour
         if (butNameTorso.Contains("MarpatTorso"))
         {
             curTorso = 2;
+            PlayerPrefs.SetInt("CurrentTorso", curTorso);
             CurWear1();
         }
         else
@@ -151,6 +165,7 @@ public class WearCharacterSettings : MonoBehaviour
     public void PixelPans()
     {
         curPans = 0;
+        PlayerPrefs.SetInt("CurrentPans", curPans);
         CurWear1();
     }
     
@@ -160,6 +175,7 @@ public class WearCharacterSettings : MonoBehaviour
         if (ButNamePans.Contains("MultiPans"))
         {
             curPans = 1;
+            PlayerPrefs.SetInt("CurrentPans", curPans);
             CurWear1();
         }
         else
@@ -174,6 +190,7 @@ public class WearCharacterSettings : MonoBehaviour
         if (ButNamePans.Contains("MarpatPans"))
         {
             curPans = 2;
+            PlayerPrefs.SetInt("CurrentPans", curPans);
             CurWear1();
         }
         else

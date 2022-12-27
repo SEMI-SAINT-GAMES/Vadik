@@ -192,9 +192,24 @@ public class Control : MonoBehaviour
         {
             timerStart -= Time.deltaTime;
         }
-        
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            TransformRight();
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            TransformLeft();
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            OnJumpDown();
+        }
+        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+        {
+            OnButtonUp();
+        }
 
-        
+
 
     }
 

@@ -225,7 +225,7 @@ MonoBehaviour:
   shotTimeBullet: 0.8
   shotDirBullet: {fileID: 4662584474518928424}
   bullet: {fileID: 2512252815128945954, guid: 960eaff36aaf645f9b8f23f2b84b38d5, type: 3}
-  expl: {fileID: 8235450258199960558, guid: 843c093cc295e4b8e9a16a991b477295, type: 3}
+  expl: {fileID: 8235450258199960558, guid: b720e64b858ca4ea48aa475f30ee6005, type: 3}
   bulletSound: {fileID: 0}
 --- !u!50 &355864477673082269
 Rigidbody2D:

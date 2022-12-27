@@ -10938,6 +10938,7 @@ MonoBehaviour:
   confilmPanelTorso: {fileID: 1269425206}
   confilmPanelPans: {fileID: 765908513}
   wearSound: {fileID: 2002654466}
+  inSave: 1
 --- !u!4 &1417236455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1664984599561563665, guid: cae7304dcbce649c2836c11149d78980,
