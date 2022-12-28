@@ -84,13 +84,13 @@ public class EnemyPatrool : MonoBehaviour
             {
                 chil = true;
             }
-            if (Vector2.Distance(transform.position, player.position) < stoppingDistance)
+            if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Mathf.Abs(transform.position.y - player.position.y) < 2)
             {
                 angr = true;
                 chil = false;
                 goBak = false;
             }
-            if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
+            if (Vector2.Distance(transform.position, player.position) > stoppingDistance && Mathf.Abs(transform.position.y - player.position.y) > 2)
             {
                 goBak = true;
                 angr = false;
@@ -193,9 +193,7 @@ public class EnemyPatrool : MonoBehaviour
             Die();
         }
         
-        {
-            Invoke("ResetMaterial", .2f);
-        }
+        
     }
     public void Shoot()
     {
@@ -226,7 +224,7 @@ public class EnemyPatrool : MonoBehaviour
                 isShooting = true;
                 enShoot.Play();
                 Invoke("Recharge", 1f);
-                Debug.Log("EnShoot");
+                
             }
             else
             {

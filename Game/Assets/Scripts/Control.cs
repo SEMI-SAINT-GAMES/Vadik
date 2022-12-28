@@ -78,7 +78,8 @@ public class Control : MonoBehaviour
     public int currentLevel;
     public bool alreadyInCar;
     public GameObject[] bodyParts;
-    
+    public InterAdd interAdd;
+    public int tryCount;
 
 
 
@@ -129,12 +130,13 @@ public class Control : MonoBehaviour
         javIsActivated = false;
         inLadder = false;
         InHouse = false;
-        
+        interAdd = Camera.main.GetComponent<InterAdd>();
         TankShootButton.SetActive(false);
         inPalace = false;
         tankActivate.enabled = false;
         isDead = false;
         runSound = GameObject.Find("RunSound").GetComponent<AudioSource>();
+        tryCount = PlayerPrefs.GetInt("TryCount", tryCount);
     }
 
     // Update is called once per frame
@@ -173,7 +175,12 @@ public class Control : MonoBehaviour
 
         if (deadLine != null && transform.position.y < deadLine.position.y)
         {
-            death.SetActive(true);
+            //death.SetActive(true);
+            
+            if (!isDead)
+            {
+                Die();
+            }
             gameObject.SetActive(false);
         }
        
@@ -454,13 +461,20 @@ public class Control : MonoBehaviour
 
      public void Die()
     {
+        tryCount += 1;
+        PlayerPrefs.SetInt("TryCount", tryCount);
+        if (tryCount >= 3)
+        {
+            interAdd.ShowAd();
+            tryCount = 0;
+            PlayerPrefs.SetInt("TryCount", tryCount);
+        }
         DeathManager deathManager = GetComponent<DeathManager>();
         deathManager.ButtonOff();
         death.SetActive(true);
         anim.SetBool("die", true);
         speed = 0;
         //st.chill();
-        
         isDead = true;
         ResetMaterial();
         

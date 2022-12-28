@@ -7,13 +7,16 @@ public class Headquaters : MonoBehaviour
     private Animator anim;
     public Transform player;
     public GameObject SaveMiniature;
+    public InterAdd interAdd;
     bool isSave = false;
+    private int tryCount;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         Invoke("CheckTrans", 0.3f);
+        
     }
     void CheckTrans()
     {
@@ -40,7 +43,12 @@ public class Headquaters : MonoBehaviour
             {
                 Instantiate(SaveMiniature, transform.position, transform.rotation);
                 isSave = true;
+                Invoke("ShowAd", 0.4f);
             }
         }
+    }
+    private void ShowAd()
+    {
+        interAdd.ShowAd();
     }
 }

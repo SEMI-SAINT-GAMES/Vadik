@@ -969,6 +969,7 @@ GameObject:
   - component: {fileID: 584440799}
   - component: {fileID: 584440798}
   - component: {fileID: 584440801}
+  - component: {fileID: 584440802}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1055,6 +1056,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultResolution: {x: 720, y: 1280}
   WidthOrHeight: 1
+--- !u!114 &584440802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584440797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2babbea027934ddeaad13556eb3ba94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600475061
 GameObject:
   m_ObjectHideFlags: 0
@@ -2496,7 +2509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 14.632019, y: -55.299988}
+  m_AnchoredPosition: {x: 14.63208, y: -55.299988}
   m_SizeDelta: {x: -242.02026, y: 26.86563}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2019924234
